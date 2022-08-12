@@ -4,6 +4,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
+#Connect LM35 to the channel 1 and MQ9 to channel 0 of MCP3008
 temp_sensor = MCP3008(channel = 1)
 gas_sensor = MCP3008(channel = 0)
 
